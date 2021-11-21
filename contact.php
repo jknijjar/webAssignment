@@ -1,9 +1,13 @@
+<!-- Site made in PHP to collect contact info -->
+
 <html>
 	<head>
 	<meta charset="UTF-8"/>
 	<link rel="stylesheet" href="style.css">
 		<title>Welcome</title>
 	</head>
+
+	<!-- PHP starts -->
 	<?php
 		if(!empty($_POST['Submit']))
 		{
@@ -29,6 +33,7 @@
 			}
 		}
 	?>
+	<!-- PHP ends here -->
 	<body>
 		<div class="nav" id="nav">
 			<div class="wraper">
